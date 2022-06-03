@@ -1,0 +1,28 @@
+.kanban {
+    display: flex;
+    padding: 30px;
+    width: 750px;
+    background: green;
+    border-radius: 5px;
+}
+
+.kanban * {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kanban__column {
+    flex: 1;
+}
+.kanban__column:not(:last-child) {
+    margin-right: 30px;
+}
+.kanban__column-title {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    user-select:none;
+}
+.kanban__item-input {
+    padding: 10px 15px;
+    padding: ;
+}
